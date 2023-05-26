@@ -1,0 +1,24 @@
+# This is a config template to use with your mod
+# Put it into the root folder of your mod so the mod manager can work with it
+# If the mod file is currupt or contents invalid YAML the mod manager will ignore your mod and not show it
+
+id: 2a1e44ac-342a-4603-a691-7b0654188c47 # Use a fresh random UUIDv4 https://www.uuidgenerator.net
+title: My mods name
+subtitle: My mods subtitle
+description: "Some text to further describe my mod. \nTo add a newline."
+version: 3.0.0 # Use semantic versioning style here https://semver.org
+category: 1 # 1: FPS/Performance, 2: Graphics, 3: UI/UX, 4: Misc, 5: Cheats, 6: Combos
+game:
+  titleId: 0100F2C011586000
+  version:
+    - 1.1.0 # Game version supported by your mod
+emulator:
+  - 1 # yuzu
+  - 2 # rhujinx
+compatibility:
+  whitelist: # If your mod is only compatible with another mod add a line here
+  blacklist: # Add a list of incompatible mods, please iterate your mods version if you updated this list
+    - 52ed829d-d021-4cf6-b5eb-e1c60579d88b
+author:
+  - name: ChucksFeedAndSeed, patchanon and somerandompeople
+    link: https://gbatemp.net/download/loz-tears-of-the-kingdom-fps-static-fps-and-visual-fixes-patch-collection.37996/
