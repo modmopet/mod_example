@@ -20,5 +20,7 @@ compatibility:
   blacklist: # Add a list of incompatible mods, please iterate your mods version if you updated this list
     - 52ed829d-d021-4cf6-b5eb-e1c60579d88b
 author:
-  - name: ChucksFeedAndSeed, patchanon and somerandompeople
-    link: https://gbatemp.net/download/loz-tears-of-the-kingdom-fps-static-fps-and-visual-fixes-patch-collection.37996/
+  - { name: ChucksFeedAndSeed, link: "https://gbatemp.net/download/loz-tears-of-the-kingdom-fps-static-fps-and-visual-fixes-patch-collection.37996/" }
+  - { name: patchanon, link: 'https://someotherlink.com'}
+  - { name: somerandompeople, link: 'https://someotherlink.com'}
+    
